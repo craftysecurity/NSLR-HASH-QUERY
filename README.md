@@ -1,0 +1,1 @@
+Fast and simple script to query sha1 hashes by file name.
