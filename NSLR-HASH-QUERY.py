@@ -3,7 +3,7 @@ import json
 import hashlib
 
 # Open the database connection
-conn = sqlite3.connect('/home/vboxuser/Downloads/RDS_2023.06.1_modern_minimal/RDS_2023.06.1_modern_minimal.db')
+conn = sqlite3.connect('RDS_2023.06.1_modern_minimal.db')
 cursor = conn.cursor()
 
 # Create an index on the file_name column
